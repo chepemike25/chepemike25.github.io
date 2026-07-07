@@ -35,15 +35,13 @@ interests:
   - Operating Systems & Low-Level Dev
 
 education:
-  - degree: MS in Electrical and Computer Engineering 
-    conc: AI & ML
+  - degree: "MS in Electrical and Computer Engineering - Conc: AI & ML"
     institution: Purdue University
     start: 2026-01
     end: 2027-05
     summary: |
       TBD
-  - degree: BS in Electrical Engineering 
-    conc: AI & ML
+  - degree: "BS in Electrical Engineering - Conc: AI & ML"
     institution: Purdue University
     start: 2022-09
     end: 2025-12
