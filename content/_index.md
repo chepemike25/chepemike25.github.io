@@ -102,8 +102,8 @@ sections:
       # Choose a layout view
      # view: card
       # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+     # spacing:
+      #  padding: [0, 0, 0, 0]
   
         <a class="github-button" href="https://github.com/HugoBlox/kit" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/kit on GitHub">Star</a>
 
