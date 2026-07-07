@@ -57,7 +57,7 @@ experience:
       Engineered a high-frequency data pipeline to scrape live NBA odds for Positive EV betting, bypassing Cloudflare anti-bot detection using TLS fingerprint spoofing (nodriver) and Chrome DevTools Protocol (CDP). 
       Architected a fully asynchronous (asyncio) system to eliminate concurrency deadlocks, utilizing regex-based DOM parsing to reliably extract dynamic Single Page Application (SPA) data for quantitative modeling.
  
- - role: Undergraduate Teaching Assistant
+  - role: Undergraduate Teaching Assistant
     org: Purdue University (ECE 36800 - Data Structures)
     start: 2025-09-04
     end: 2025-12-31
