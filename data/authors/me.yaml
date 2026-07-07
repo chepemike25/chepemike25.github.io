@@ -16,8 +16,8 @@ bio: |
    quantitative analytics, and hardware reliability models.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Purdue University
+    url: https://www.purdue.edu/
 
 links:
   - icon: at-symbol
@@ -35,24 +35,18 @@ interests:
   - Operating Systems & Low-Level Dev
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: MS in Electrical and Computer Engineering - Conc: AI & ML
+    institution: Purdue University
+    start: 2026-01
+    end: 2027-05
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      TBD
+  - degree: BS in Electrical Engineering - Conc: AI & ML
+    institution: Purdue University
+    start: 2022-09
+    end: 2025-12
+    summary: |
+      TBD
 
 experience:
   - role: Senior AI Research Scientist
