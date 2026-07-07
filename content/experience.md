@@ -18,6 +18,10 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
+  - block: resume-academic
+    content:
+      title: Academic & Lab Experience
+      username: me
   - block: resume-skills
     content:
       title: Skills & Hobbies
