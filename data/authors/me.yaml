@@ -49,21 +49,117 @@ education:
       Concentration: AI & ML
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
+  - role: Quantitative Finance Analyst Club Member
+    org: Boiler Quant Finance Group
+    start: 2025-08-01
+    end: 2025-12-31
+    summary: |
+      Engineered a high-frequency data pipeline to scrape live NBA odds for Positive EV betting, bypassing Cloudflare anti-bot detection using TLS fingerprint spoofing (nodriver) and Chrome DevTools Protocol (CDP). 
+      Architected a fully asynchronous (asyncio) system to eliminate concurrency deadlocks, utilizing regex-based DOM parsing to reliably extract dynamic Single Page Application (SPA) data for quantitative modeling.
+
+  - role: Quantitative Finance Strategist Intern
+    org: Morgan Stanley
+    start: 2025-06-02
+    end: 2025-08-08
+    summary: |
+      Transformed pre-existing FX market data by removing aggregator biases, adding a custom volatility metric, and applying a proprietary methodology to ensure client-facing data quality. 
+      Developed a source-tracking script to identify and map pre-approved data on a legacy analytics platform, ensuring an accurate and efficient full system migration while preventing overlap, and enhancing data flow architecture awareness. 
+      Designed a proof-of-concept API to package proprietary data as a new financial product, allowing clients to sample data for investment models.
+
+  - role: Powertrain Mechatronics Intern
+    org: Daimler Truck AG (Mercedes-Benz Group)
+    start: 2024-05-13
+    end: 2024-12-20
+    summary: |
+      Developed automated test procedure software tools through Simulink for CAN signal processing in Power Train regression testing and collaborated with System feature owners to use these tools as a testbench for ECUs. 
+      Created wiring hardware to facilitate communication between devices. 
+      Transferred test packages to an automated test platform (ECU-Test) while handling increasing technical work.
+
+  - role: EE Validation Engineering Intern
+    org: Stellantis (Fiat Chrysler Automotive)
+    start: 2023-08-14
+    end: 2023-12-15
+    summary: |
+      Worked with Design Verification Plan & Report (DVP&R) documents to test functions on components and sub-systems. 
+      Followed a test procedure to validate requirements. Gave an input into improving the test procedure and/or the requirement. 
+      Utilized toolsets to interface with Electronic Control Units (ECUs) and sensors and collect/analyze data. 
+      Worked with Design Release Engineers (DREs) to present findings and providing documentation on how I produced failures.
+
+  - role: Summer Training Awareness and Readiness for Semiconductors Intern
+    org: Purdue University STARS Program
+    start: 2023-05-15
+    end: 2023-07-07
+    summary: |
+      Designed and implemented complex digital integrated circuits using FPGA prototypes (RCA, BCD, CLA adders, ALU, etc.). 
+      Developed expertise in designing and integrating combinational (multiplexers, adders, decoders) and sequential (state machines, counters, shift registers) logic functions. 
+      Demonstrated exceptional collaboration within small teams, in planning and execution and verification of final semiconductor designs using RTL block diagrams.
+
+  - role: Data & Analytics Intern
+    org: Pacific Coast Companies, Inc.
+    start: 2022-04-18
+    end: 2022-08-05
+    summary: |
+      R-scripted Demand Forecast Integration in SAP database from SQL transformation of Master Data and Python Machine Learning. 
+      Successfully performed data-oriented Power BI business data visualization and analysis to benefit process optimization, inventory organization and spending of company's subsidiaries. 
+      Received recognition of continuous improvement.
+
+  - role: Co-founder & Public Relations Manager
+    org: Pre-University Science Olympiad
     start: 2020-01-01
+    end: 2021-12-31
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Hosted international online competitions in Physics, Biology & Chemistry to promote youth integration and sense of community oriented to STEM fields. 
+      Focused on the objective of removing the stigma around STEM across over 30 participating countries.
+
+  # --- Classes & Academic Roles ---
+  - role: Computer Design and Prototyping
+    org: Purdue University (ECE 43700)
+    start: 2026-01-15
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Engaged in an intensive hardware design gateway focused on pipelining, cache hierarchies, virtual memory, and I/O using the RISC-V ISA and SystemVerilog. 
+      Designed complex processors and cache systems, utilizing synthesis tools to implement single-cycle and multi-core pipelined CPUs.
+
+  - role: Undergraduate Teaching Assistant
+    org: Purdue University (ECE 36800 - Data Structures)
+    start: 2025-09-04
+    end: 2025-12-31
+    summary: |
+      Guided students in fundamental algorithm analysis (Big-O, time complexity) and the implementation of core data structures, including lists, queues, and stacks. 
+      Assisted with assignments covering height-balanced trees, heaps, graph traversal (DFS, BFS), shortest path algorithms, sorting, and hashing.
+
+  - role: Senior Design - Patek Digitale Wearable System
+    org: Purdue University (ECE 49022)
+    start: 2025-08-01
+    end: 2025-12-31
+    summary: |
+      Co-designed the full-stack hardware architecture and low-power subsystem for a wearable device, capturing schematics and executing multi-layer PCB layout under strict component footprint constraints. 
+      Developed and executed validation test plans using SPICE simulations and laboratory instruments to verify circuit behavior and ensure power efficiency against rigorous project requirements. 
+      Performed board-level bring-up and iterative hardware-in-the-loop validation, debugging signal anomalies and navigating component constraints to guarantee system reliability.
+
+  - role: ASIC Design Laboratory - USB 2.0 to AHB-Lite Subordinate Interface
+    org: Purdue University (ECE 3370)
+    start: 2025-08-01
+    end: 2025-12-31
+    summary: |
+      Architected and synthesized an AHB-Lite subordinate interface compliant with the USB 2.0 protocol using SystemVerilog, implementing the complete physical, link, and protocol layer state machines. 
+      Executed gate-level synthesis using Synopsys Design Compiler, translating the RTL design into a target cell library while optimizing for minimal area footprint and maximum clock frequency. 
+      Conducted rigorous post-synthesis characterization, analyzing timing reports to measure slack, resolve setup/hold violations, and verify total dynamic power dissipation.
+
+  - role: AI - Deep Learning for High-Frequency Crypto Forecasting
+    org: Purdue University (ECE 5700)
+    start: 2025-08-01
+    end: 2025-12-31
+    summary: |
+      Adapted a frequency-tuned State Space Model (S4D) with learnable Sobolev filters to financial time-series, reducing BTC-USD forecasting error by 98% (Normalized MSE 0.45 -> 0.0067) compared to HiPPO baselines. 
+      Designed a residual learning architecture to resolve non-stationarity and spectral bias, effectively normalizing stochastic price drifts to detect rapid momentum shifts without lag.
+
+  - role: Undergraduate Teaching Assistant
+    org: Purdue University (ECE 26400 - Advanced C Programming)
+    start: 2024-06-10
+    end: 2024-08-01
+    summary: |
+      Assisted in advanced C programming topics, including memory management, debugging with valgrind and GDB, test-driven development (TDD), and complex data structures (linked lists, BSTs). 
+      Supported students with hands-on coding, and homework assignments involving unit testing, dynamic memory allocation, and efficient use of Makefile basics.
 
 skills:
   - name: Technical Skills
