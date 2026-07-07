@@ -40,13 +40,13 @@ education:
     start: 2026-01
     end: 2027-05
     summary: |
-      "Concentration: AI & ML"
+      Concentration: AI & ML
   - degree: "BS in Electrical Engineering"
     institution: Purdue University
     start: 2022-09
     end: 2025-12
     summary: |
-      "Concentration: AI & ML"
+      Concentration: AI & ML
 
 experience:
   - role: Senior AI Research Scientist
