@@ -82,8 +82,7 @@ experience:
       Developed automated test procedure software tools through Simulink for CAN signal processing in Power Train regression testing and collaborated with System feature owners to use these tools as a testbench for ECUs. 
       Created wiring hardware to facilitate communication between devices. 
       Transferred test packages to an automated test platform (ECU-Test) while handling increasing technical work.
-###
- - role: Undergraduate Teaching Assistant
+  - role: Undergraduate Teaching Assistant
     org: Purdue University (ECE 26400 - Advanced C Programming)
     start: 2024-06-10
     end: 2024-08-01
