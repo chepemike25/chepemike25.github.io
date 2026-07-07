@@ -56,6 +56,14 @@ experience:
     summary: |
       Engineered a high-frequency data pipeline to scrape live NBA odds for Positive EV betting, bypassing Cloudflare anti-bot detection using TLS fingerprint spoofing (nodriver) and Chrome DevTools Protocol (CDP). 
       Architected a fully asynchronous (asyncio) system to eliminate concurrency deadlocks, utilizing regex-based DOM parsing to reliably extract dynamic Single Page Application (SPA) data for quantitative modeling.
+ 
+ - role: Undergraduate Teaching Assistant
+    org: Purdue University (ECE 36800 - Data Structures)
+    start: 2025-09-04
+    end: 2025-12-31
+    summary: |
+      Guided students in fundamental algorithm analysis (Big-O, time complexity) and the implementation of core data structures, including lists, queues, and stacks. 
+      Assisted with assignments covering height-balanced trees, heaps, graph traversal (DFS, BFS), shortest path algorithms, sorting, and hashing.
 
   - role: Quantitative Finance Strategist Intern
     org: Morgan Stanley
@@ -74,6 +82,14 @@ experience:
       Developed automated test procedure software tools through Simulink for CAN signal processing in Power Train regression testing and collaborated with System feature owners to use these tools as a testbench for ECUs. 
       Created wiring hardware to facilitate communication between devices. 
       Transferred test packages to an automated test platform (ECU-Test) while handling increasing technical work.
+###
+ - role: Undergraduate Teaching Assistant
+    org: Purdue University (ECE 26400 - Advanced C Programming)
+    start: 2024-06-10
+    end: 2024-08-01
+    summary: |
+      Assisted in advanced C programming topics, including memory management, debugging with valgrind and GDB, test-driven development (TDD), and complex data structures (linked lists, BSTs). 
+      Supported students with hands-on coding, and homework assignments involving unit testing, dynamic memory allocation, and efficient use of Makefile basics.
 
   - role: EE Validation Engineering Intern
     org: Stellantis (Fiat Chrysler Automotive)
@@ -112,21 +128,6 @@ experience:
       Focused on the objective of removing the stigma around STEM across over 30 participating countries.
 
   # --- Classes & Academic Roles ---
-  - role: Computer Design and Prototyping
-    org: Purdue University (ECE 43700)
-    start: 2026-01-15
-    summary: |
-      Engaged in an intensive hardware design gateway focused on pipelining, cache hierarchies, virtual memory, and I/O using the RISC-V ISA and SystemVerilog. 
-      Designed complex processors and cache systems, utilizing synthesis tools to implement single-cycle and multi-core pipelined CPUs.
-
-  - role: Undergraduate Teaching Assistant
-    org: Purdue University (ECE 36800 - Data Structures)
-    start: 2025-09-04
-    end: 2025-12-31
-    summary: |
-      Guided students in fundamental algorithm analysis (Big-O, time complexity) and the implementation of core data structures, including lists, queues, and stacks. 
-      Assisted with assignments covering height-balanced trees, heaps, graph traversal (DFS, BFS), shortest path algorithms, sorting, and hashing.
-
   - role: Senior Design - Patek Digitale Wearable System
     org: Purdue University (ECE 49022)
     start: 2025-08-01
@@ -152,15 +153,16 @@ experience:
     summary: |
       Adapted a frequency-tuned State Space Model (S4D) with learnable Sobolev filters to financial time-series, reducing BTC-USD forecasting error by 98% (Normalized MSE 0.45 -> 0.0067) compared to HiPPO baselines. 
       Designed a residual learning architecture to resolve non-stationarity and spectral bias, effectively normalizing stochastic price drifts to detect rapid momentum shifts without lag.
-
-  - role: Undergraduate Teaching Assistant
-    org: Purdue University (ECE 26400 - Advanced C Programming)
-    start: 2024-06-10
-    end: 2024-08-01
+  
+  - role: Digital Signal Processing with Applications
+    org: Purdue University (ECE 43800)
+    start: 2025-08-01
+    end: 2025-12-31
     summary: |
-      Assisted in advanced C programming topics, including memory management, debugging with valgrind and GDB, test-driven development (TDD), and complex data structures (linked lists, BSTs). 
-      Supported students with hands-on coding, and homework assignments involving unit testing, dynamic memory allocation, and efficient use of Makefile basics.
-
+      Engineered Python-based pipelines using NumPy, SciPy, and OpenCV for tasks like image restoration, frequency-domain denoising, and adaptive spatial filtering.
+      Implemented Fast Fourier Transform algorithms, along with Discrete Cosine and Wavelet Transform frameworks for image compression, while evaluating performance through metrics like RMSE and PSNR.
+  
+ 
 skills:
   - name: Technical Skills
     items:
