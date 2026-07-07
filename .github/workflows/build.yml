@@ -74,8 +74,8 @@ jobs:
           VERSION="$DEFAULT_VERSION"
         fi
         
-        echo "HUGO_VERSION=$VERSION" >> $GITHUB_ENV
-        echo "Using Hugo version: $VERSION"
+        echo "HUGO_VERSION=0.161.0" >> $GITHUB_ENV
+        echo "Using Hugo version: 0.161.0"
 
     - name: Install dependencies
       run: |
