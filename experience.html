@@ -139,19 +139,20 @@
             <li class="timeline-item">
               <div class="timeline-head">
                 <div>
-                  <p class="timeline-role">Quantitative Finance Analyst Club Member</p>
+                  <p class="timeline-role">Quantitative Analyst</p>
                   <p class="timeline-org">Boiler Quant Finance Group</p>
                 </div>
                 <span class="timeline-dates">Aug 2025 – Dec 2025</span>
               </div>
               <p class="desc">
-                Engineered a high-frequency data pipeline to scrape live NBA
-                odds for Positive EV betting, bypassing Cloudflare anti-bot
-                detection using TLS fingerprint spoofing (nodriver) and Chrome
-                DevTools Protocol (CDP). Architected a fully asynchronous
-                (asyncio) system to eliminate concurrency deadlocks, utilizing
-                regex-based DOM parsing to reliably extract dynamic Single Page
-                Application (SPA) data for quantitative modeling.
+                Built concurrent link-discovery crawlers for a multi-sportsbook
+                odds pipeline (crawl4ai, asyncio), batch-crawling sites and
+                classifying betting event pages via regex URL pattern sets with
+                domain filtering and deduplication. Wrote Playwright scrapers
+                using AgentQL semantic queries to extract player-prop lines and
+                over/under prices from dynamically rendered pages, with
+                DOM-interaction fallbacks for expandable markets, exporting
+                structured CSVs for +EV analysis.
               </p>
             </li>
 
@@ -166,11 +167,10 @@
                 <span class="timeline-dates">Sep 2025 – Dec 2025</span>
               </div>
               <p class="desc">
-                Guided students in fundamental algorithm analysis (Big-O, time
-                complexity) and the implementation of core data structures,
-                including lists, queues, and stacks. Assisted with assignments
-                covering height-balanced trees, heaps, graph traversal (DFS,
-                BFS), shortest-path algorithms, sorting, and hashing.
+                Taught algorithm analysis and core data structures (balanced
+                trees, heaps, graph traversal, shortest paths, hashing) to
+                undergraduates, debugging student C assignment implementations
+                in office hours.
               </p>
             </li>
 
@@ -183,16 +183,17 @@
                 <span class="timeline-dates">Jun 2025 – Aug 2025</span>
               </div>
               <p class="desc">
-                Transformed pre-existing FX market data by removing aggregator
-                biases, adding a custom volatility metric, and applying a
-                proprietary methodology to ensure client-facing data quality.
-                Developed a source-tracking script to identify and map
-                pre-approved data on a legacy analytics platform, ensuring an
-                accurate and efficient full-system migration while preventing
-                overlap and enhancing data-flow architecture awareness.
-                Designed a proof-of-concept API to package proprietary data as
-                a new financial product, allowing clients to sample data for
-                investment models.
+                Evaluated 15 internal fixed-income datasets for external sale
+                in collaboration with dataset-owner strategists. Wrote kdb/q
+                queries to remove third-party-licensed sources and shield
+                proprietary curves, shipping 3 datasets to production and
+                later adding a volume-weighted FX volatility metric. Compiled
+                dataset ownership, source, and lineage metadata into a JSON
+                catalog and scripted analysis of a legacy visualization
+                tool&rsquo;s query layer, consolidating it to ~20 master
+                tables to scope a platform migration. Built a Python
+                proof-of-concept API providing clients controlled, sampled
+                access to the datasets and received a return offer.
               </p>
             </li>
 
@@ -207,13 +208,14 @@
                 <span class="timeline-dates">May 2024 – Dec 2024</span>
               </div>
               <p class="desc">
-                Developed automated test-procedure software tools through
-                Simulink for CAN signal processing in powertrain regression
-                testing and collaborated with System feature owners to use
-                these tools as a testbench for ECUs. Created wiring hardware to
-                facilitate communication between devices. Transferred test
-                packages to an automated test platform (ECU-Test) while
-                handling increasing technical scope.
+                Built automated test-procedure tools in Simulink for CAN
+                signal processing in powertrain regression testing, adopted
+                by system feature owners as an ECU testbench. Designed a
+                master breakout box supporting multiple generations of a
+                powertrain controller, plus individual test harnesses enabling
+                each engineer to bench-test the controller independently.
+                Migrated test packages to the ECU-Test automation platform
+                under expanding technical scope.
               </p>
             </li>
 
@@ -248,14 +250,12 @@
                 <span class="timeline-dates">Aug 2023 – Dec 2023</span>
               </div>
               <p class="desc">
-                Worked with Design Verification Plan &amp; Report (DVP&amp;R)
-                documents to test functions on components and sub-systems,
-                following test procedures to validate requirements and
-                proposing improvements to the procedure and requirements
-                themselves. Utilized toolsets to interface with Electronic
-                Control Units (ECUs) and sensors, collect and analyze data, and
-                worked with Design Release Engineers (DREs) to present findings
-                and produce failure documentation.
+                Executed DVP&amp;R (Design Verification Plan &amp; Report)
+                test procedures validating requirements on electrical
+                components and subsystems, proposing improvements to both
+                procedures and requirements. Interfaced with ECUs and sensors
+                to collect and analyze test data, presenting findings and
+                failure documentation to Design Release Engineers.
               </p>
             </li>
 
@@ -271,13 +271,10 @@
                 <span class="timeline-dates">May 2023 – Jul 2023</span>
               </div>
               <p class="desc">
-                Designed and implemented complex digital integrated circuits
-                using FPGA prototypes (RCA, BCD, CLA adders, ALU, etc.).
-                Developed expertise in designing and integrating combinational
-                (multiplexers, adders, decoders) and sequential (state
-                machines, counters, shift registers) logic functions.
-                Collaborated on the planning, execution, and verification of
-                final semiconductor designs using RTL block diagrams.
+                Designed and implemented digital logic on FPGAs, including
+                adders (RCA, CLA, BCD), an ALU, finite state machines,
+                counters, and shift registers, in a semiconductor-focused
+                summer program.
               </p>
             </li>
 
@@ -290,12 +287,12 @@
                 <span class="timeline-dates">Apr 2022 – Aug 2022</span>
               </div>
               <p class="desc">
-                R-scripted Demand Forecast Integration in a SAP database from
-                SQL transformation of Master Data and Python machine learning.
-                Delivered Power BI business-data visualization and analysis to
-                support process optimization, inventory organization, and
-                spending across the company&rsquo;s subsidiaries. Recognized
-                for continuous improvement.
+                Built SKU demand forecasting integrated into SAP using ARIMA,
+                SARIMA, and Facebook Prophet in Python and R, adapting
+                Prophet&rsquo;s logistic-growth mode to cap forecasts at 20%
+                above historical peak demand, and classifying demand patterns
+                in SQL by variance and demand spacing. Delivered Power BI
+                analyses adopted for inventory planning across subsidiaries.
               </p>
             </li>
 
@@ -331,15 +328,18 @@
                 <span class="timeline-dates">Aug 2025 – Dec 2025</span>
               </div>
               <p class="desc">
-                Co-designed the full-stack hardware architecture and low-power
-                subsystem for a wearable device, capturing schematics and
-                executing multi-layer PCB layout under strict component
-                footprint constraints. Developed and executed validation test
-                plans using SPICE simulations and laboratory instruments to
-                verify circuit behavior and ensure power efficiency. Performed
-                board-level bring-up and iterative hardware-in-the-loop
-                validation to debug signal anomalies and guarantee system
-                reliability.
+                Designed the power subsystem for a battery-operated wrist
+                wearable: dual-rail architecture with a buck-boost converter
+                (3.3&nbsp;V) and low-noise LDO (1.8&nbsp;V) from a single-cell
+                350&nbsp;mAh Li-Po, plus a USB-C linear charging circuit at a
+                0.5C rate with TVS input protection. Performed KiCad layout
+                for the power section and the board-level integration routing
+                connecting the power and sensor sections of the mixed-signal
+                PCB. Validated the design on lab instruments: measured rail
+                ripple of 44&nbsp;mV and 24&nbsp;mV pk-pk against a 50&nbsp;mV
+                spec, verified 170&nbsp;mA charge current via the charger&rsquo;s
+                program pin, and confirmed 17+ hours of runtime against a
+                16-hour requirement from a 77&nbsp;mW power-budget analysis.
               </p>
             </li>
 
@@ -350,21 +350,23 @@
                     ASIC Design Laboratory — USB 2.0 to AHB-Lite Subordinate
                     Interface
                   </p>
-                  <p class="timeline-org">Purdue University · ECE 3370</p>
+                  <p class="timeline-org">Purdue University · ECE 33700</p>
                 </div>
-                <span class="timeline-dates">Aug 2025 – Dec 2025</span>
+                <span class="timeline-dates">Jan 2025 – May 2025</span>
               </div>
               <p class="desc">
-                Architected and synthesized an AHB-Lite subordinate interface
-                compliant with the USB 2.0 protocol using SystemVerilog,
-                implementing the complete physical, link, and protocol layer
-                state machines. Executed gate-level synthesis using Synopsys
-                Design Compiler, translating the RTL design into a target cell
-                library while optimizing for minimal area footprint and maximum
-                clock frequency. Conducted rigorous post-synthesis
-                characterization, analyzing timing reports to resolve
-                setup/hold violations and verify total dynamic power
-                dissipation.
+                Designed the AHB-Lite subordinate interface for a USB 2.0
+                full-speed device: implemented a memory-mapped register file
+                and dual FSMs unpacking byte, halfword, and word transfers
+                into sequential accesses to a shared 64-byte packet FIFO.
+                Implemented AHB-Lite protocol compliance, including pipelined
+                address and data phases, wait-state insertion via HREADY, and
+                two-cycle HRESP error responses for illegal transfer sizes and
+                addresses. Wrote the top-level and module-to-module
+                integration testbenches, running directed test cases against
+                the AHB interface and debugging failures at the waveform
+                level, and verified modules individually and pairwise on the
+                synthesized gate-level netlist.
               </p>
             </li>
 
@@ -379,13 +381,18 @@
                 <span class="timeline-dates">Aug 2025 – Dec 2025</span>
               </div>
               <p class="desc">
-                Adapted a frequency-tuned State Space Model (S4D) with
-                learnable Sobolev filters to financial time-series, reducing
-                BTC-USD forecasting error by 98% (Normalized MSE 0.45 &rarr;
-                0.0067) compared to HiPPO baselines. Designed a residual
-                learning architecture to resolve non-stationarity and spectral
-                bias, effectively normalizing stochastic price drifts to detect
-                rapid momentum shifts without lag.
+                Reproduced ICLR 2025 results on spectral bias in state space
+                models: implemented a diagonal S4D layer from the paper&rsquo;s
+                equations, with FFT-domain convolution and a Sobolev frequency
+                filter, in PyTorch. Extended the paper by making the
+                frequency-tuning parameters learnable and adding a residual
+                forecasting head predicting price changes rather than levels,
+                resolving scale non-stationarity in BTC-USD daily data. Ran
+                multi-seed ablations across the tuning grid, identifying a
+                stability boundary: amplifying high frequencies (&beta; &gt; 0)
+                diverged (MSE &gt; 28) in low-SNR financial data, while
+                dampening (&beta; = &minus;1) converged, confirming spectral
+                filters must regularize, not enhance, for financial series.
               </p>
             </li>
 
@@ -414,87 +421,51 @@
 
       <section class="section-alt">
         <div class="container">
-          <h2 class="section-title">Skills &amp; Hobbies</h2>
+          <h2 class="section-title">Skills &amp; Interests</h2>
 
           <div class="grid-2">
             <div class="skill-group">
-              <h3>Technical Skills</h3>
-              <div class="skill-row">
-                <span class="skill-label">Python</span>
-                <span
-                  class="skill-dots"
-                  role="img"
-                  aria-label="Level 5 out of 5"
-                >
-                  <span class="on"></span><span class="on"></span
-                  ><span class="on"></span><span class="on"></span
-                  ><span class="on"></span>
-                </span>
-              </div>
-              <div class="skill-row">
-                <span class="skill-label">Machine Learning</span>
-                <span
-                  class="skill-dots"
-                  role="img"
-                  aria-label="Level 5 out of 5"
-                >
-                  <span class="on"></span><span class="on"></span
-                  ><span class="on"></span><span class="on"></span
-                  ><span class="on"></span>
-                </span>
-              </div>
-              <div class="skill-row">
-                <span class="skill-label">Cloud Computing</span>
-                <span
-                  class="skill-dots"
-                  role="img"
-                  aria-label="Level 4 out of 5"
-                >
-                  <span class="on"></span><span class="on"></span
-                  ><span class="on"></span><span class="on"></span
-                  ><span></span>
-                </span>
-              </div>
+              <h3>Technical</h3>
+              <ul class="chip-list">
+                <li class="chip">Python</li>
+                <li class="chip">C</li>
+                <li class="chip">C++</li>
+                <li class="chip">SystemVerilog</li>
+                <li class="chip">kdb/q</li>
+                <li class="chip">SQL</li>
+                <li class="chip">R</li>
+                <li class="chip">Java</li>
+                <li class="chip">CAPL/CANoe</li>
+                <li class="chip">Digital design &amp; verification</li>
+                <li class="chip">AHB-Lite</li>
+                <li class="chip">I²C</li>
+                <li class="chip">FPGA prototyping</li>
+                <li class="chip">KiCad</li>
+                <li class="chip">Lab instrumentation</li>
+                <li class="chip">PyTorch</li>
+                <li class="chip">pandas</li>
+                <li class="chip">NumPy</li>
+                <li class="chip">ARIMA / SARIMA</li>
+                <li class="chip">Prophet</li>
+                <li class="chip">Power BI</li>
+                <li class="chip">SAP HANA</li>
+                <li class="chip">Git</li>
+                <li class="chip">Jira</li>
+              </ul>
             </div>
 
             <div class="skill-group">
-              <h3>Research &amp; Communication</h3>
-              <div class="skill-row">
-                <span class="skill-label">Academic Writing</span>
-                <span
-                  class="skill-dots"
-                  role="img"
-                  aria-label="Level 5 out of 5"
-                >
-                  <span class="on"></span><span class="on"></span
-                  ><span class="on"></span><span class="on"></span
-                  ><span class="on"></span>
-                </span>
-              </div>
-              <div class="skill-row">
-                <span class="skill-label">Conference Presentations</span>
-                <span
-                  class="skill-dots"
-                  role="img"
-                  aria-label="Level 4 out of 5"
-                >
-                  <span class="on"></span><span class="on"></span
-                  ><span class="on"></span><span class="on"></span
-                  ><span></span>
-                </span>
-              </div>
-              <div class="skill-row">
-                <span class="skill-label">Grant Proposals</span>
-                <span
-                  class="skill-dots"
-                  role="img"
-                  aria-label="Level 4 out of 5"
-                >
-                  <span class="on"></span><span class="on"></span
-                  ><span class="on"></span><span class="on"></span
-                  ><span></span>
-                </span>
-              </div>
+              <h3>Interests</h3>
+              <ul class="chip-list">
+                <li class="chip">Programming</li>
+                <li class="chip">AI</li>
+                <li class="chip">Quantitative Finance</li>
+                <li class="chip">Investing</li>
+                <li class="chip">Hardware</li>
+                <li class="chip">Firmware</li>
+                <li class="chip">Olympic Lifting</li>
+                <li class="chip">Track &amp; Field</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -527,7 +498,7 @@
           <div class="grid-2">
             <div class="skill-group">
               <div class="skill-row">
-                <span class="skill-label">English <em style="color:var(--fg-subtle); font-style:normal; font-weight:400">— Native</em></span>
+                <span class="skill-label">English <em style="color:var(--fg-subtle); font-style:normal; font-weight:400">— Fluent</em></span>
                 <span
                   class="skill-dots"
                   role="img"
@@ -539,14 +510,26 @@
                 </span>
               </div>
               <div class="skill-row">
-                <span class="skill-label">Spanish <em style="color:var(--fg-subtle); font-style:normal; font-weight:400">— Fluent</em></span>
+                <span class="skill-label">Spanish <em style="color:var(--fg-subtle); font-style:normal; font-weight:400">— Native (Advanced Speaking &amp; Writing)</em></span>
                 <span
                   class="skill-dots"
                   role="img"
-                  aria-label="Level 4 out of 5"
+                  aria-label="Level 5 out of 5"
                 >
                   <span class="on"></span><span class="on"></span
                   ><span class="on"></span><span class="on"></span
+                  ><span class="on"></span>
+                </span>
+              </div>
+              <div class="skill-row">
+                <span class="skill-label">German <em style="color:var(--fg-subtle); font-style:normal; font-weight:400">— Basic (Reading Proficiency)</em></span>
+                <span
+                  class="skill-dots"
+                  role="img"
+                  aria-label="Level 2 out of 5"
+                >
+                  <span class="on"></span><span class="on"></span
+                  ><span></span><span></span
                   ><span></span>
                 </span>
               </div>
